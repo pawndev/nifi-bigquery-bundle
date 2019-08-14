@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.nifi:nifi-gcp-processors:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/nifi/nifi-gcp-processors/unknown/nifi-gcp-processors-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/nifi/nifi-gcp-processors/unknown/nifi-gcp-processors-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/nifi/nifi-gcp-processors/unknown/nifi-gcp-processors-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,1679 @@
+Apache Maven 3.6.1 (NON-CANONICAL_2019-07-24T20:49:02Z_root; 2019-07-24T22:49:02+02:00)
+Maven home: /opt/maven
+Java version: 1.8.0_222, vendor: Oracle Corporation, runtime: /usr/lib/jvm/java-8-openjdk/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.19.56-1-manjaro", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /opt/maven/conf/settings.xml
+[DEBUG] Reading user settings from /home/pawndev/.m2/settings.xml
+[DEBUG] Reading global toolchains from /opt/maven/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /home/pawndev/.m2/toolchains.xml
+[DEBUG] Using local repository at /home/pawndev/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/pawndev/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1310962, ConflictMarker.markTime=808652, ConflictMarker.nodeCount=491, ConflictIdSorter.graphTime=837664, ConflictIdSorter.topsortTime=281115, ConflictIdSorter.conflictIdCount=103, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=8065799, ConflictResolver.conflictItemCount=253, DefaultDependencyCollector.collectTime=337148849, DefaultDependencyCollector.transformTime=12612019}
+[DEBUG] org.apache.nifi:nifi-nar-maven-plugin:jar:1.1.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.1.0:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.0.0.M2a:compile
+[DEBUG]          javax.enterprise:cdi-api:jar:1.0:compile
+[DEBUG]             javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]             javax.inject:javax.inject:jar:1:compile
+[DEBUG]          com.google.guava:guava:jar:10.0.1:compile
+[DEBUG]             com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[DEBUG]          org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0:compile
+[DEBUG]             aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]          org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M2a:compile
+[DEBUG]             asm:asm:jar:3.3.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.4:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.1.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]    org.apache.maven:maven-compat:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.1.0:compile
+[DEBUG]       org.apache.maven:maven-core:jar:3.1.0:compile
+[DEBUG]          org.apache.maven:maven-settings-builder:jar:3.1.0:compile
+[DEBUG]          org.apache.maven:maven-aether-provider:jar:3.1.0:compile
+[DEBUG]             org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile
+[DEBUG]          org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile
+[DEBUG]          org.eclipse.aether:aether-api:jar:0.9.0.M2:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.16:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile
+[DEBUG]    org.apache.maven.plugins:maven-dependency-plugin:jar:2.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]             junit:junit:jar:3.8.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-impl:jar:2.2:compile
+[DEBUG]          org.apache.maven.doxia:doxia-core:jar:1.2:compile
+[DEBUG]             xerces:xercesImpl:jar:2.9.1:compile
+[DEBUG]                xml-apis:xml-apis:jar:1.3.04:compile
+[DEBUG]             org.apache.httpcomponents:httpclient:jar:4.0.2:compile
+[DEBUG]                org.apache.httpcomponents:httpcore:jar:4.0.1:compile
+[DEBUG]                commons-codec:commons-codec:jar:1.3:compile
+[DEBUG]          commons-validator:commons-validator:jar:1.3.1:compile
+[DEBUG]             commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]             commons-digester:commons-digester:jar:1.6:compile
+[DEBUG]             commons-logging:commons-logging:jar:1.0.4:compile
+[DEBUG]       commons-io:commons-io:jar:1.4:compile
+[DEBUG]       org.apache.maven.doxia:doxia-sink-api:jar:1.4:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.4:compile
+[DEBUG]       org.apache.maven.doxia:doxia-site-renderer:jar:1.4:compile
+[DEBUG]          org.apache.maven.doxia:doxia-decoration-model:jar:1.4:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-xhtml:jar:1.4:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-fml:jar:1.4:compile
+[DEBUG]          org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]          org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile
+[DEBUG]          org.apache.velocity:velocity:jar:1.5:compile
+[DEBUG]             oro:oro:jar:2.0.8:compile
+[DEBUG]          org.apache.velocity:velocity-tools:jar:2.0:compile
+[DEBUG]             commons-chain:commons-chain:jar:1.1:compile
+[DEBUG]             dom4j:dom4j:jar:1.1:compile
+[DEBUG]             sslext:sslext:jar:1.2-0:compile
+[DEBUG]             org.apache.struts:struts-core:jar:1.3.8:compile
+[DEBUG]                antlr:antlr:jar:2.7.2:compile
+[DEBUG]             org.apache.struts:struts-taglib:jar:1.3.8:compile
+[DEBUG]             org.apache.struts:struts-tiles:jar:1.3.8:compile
+[DEBUG]       org.codehaus.plexus:plexus-archiver:jar:2.4.4:compile
+[DEBUG]          org.apache.commons:commons-compress:jar:1.5:compile
+[DEBUG]             org.tukaani:xz:jar:1.2:compile
+[DEBUG]       org.apache.maven.shared:file-management:jar:1.2.1:compile
+[DEBUG]          org.apache.maven.shared:maven-shared-io:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.shared:maven-dependency-analyzer:jar:1.5:compile
+[DEBUG]          org.ow2.asm:asm:jar:5.0.2:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.4:compile
+[DEBUG]       org.apache.maven.shared:maven-invoker:jar:2.1.1:compile
+[DEBUG]       commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:2.2:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]    org.apache.maven.plugins:maven-jar-plugin:jar:2.5:compile
+[DEBUG]       org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG] Created new class realm extension>org.apache.nifi:nifi-nar-maven-plugin:1.1.0
+[DEBUG] Importing foreign packages into class realm extension>org.apache.nifi:nifi-nar-maven-plugin:1.1.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.apache.nifi:nifi-nar-maven-plugin:1.1.0
+[DEBUG]   Included: org.apache.nifi:nifi-nar-maven-plugin:jar:1.1.0
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:1.0
+[DEBUG]   Included: com.google.guava:guava:jar:10.0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:1.3.9
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:no_aop:3.1.0
+[DEBUG]   Included: aopalliance:aopalliance:jar:1.0
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.0.0.M2a
+[DEBUG]   Included: asm:asm:jar:3.3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.10
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.16
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-dependency-plugin:jar:2.9
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:2.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.2
+[DEBUG]   Included: xerces:xercesImpl:jar:2.9.1
+[DEBUG]   Included: xml-apis:xml-apis:jar:1.3.04
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.0.2
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.0.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.3
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.3.1
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.6
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.0.4
+[DEBUG]   Included: commons-io:commons-io:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-fml:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.1.7
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.5
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: org.apache.velocity:velocity-tools:jar:2.0
+[DEBUG]   Included: commons-chain:commons-chain:jar:1.1
+[DEBUG]   Included: dom4j:dom4j:jar:1.1
+[DEBUG]   Included: sslext:sslext:jar:1.2-0
+[DEBUG]   Included: org.apache.struts:struts-core:jar:1.3.8
+[DEBUG]   Included: antlr:antlr:jar:2.7.2
+[DEBUG]   Included: org.apache.struts:struts-taglib:jar:1.3.8
+[DEBUG]   Included: org.apache.struts:struts-tiles:jar:1.3.8
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.4.4
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.5
+[DEBUG]   Included: org.tukaani:xz:jar:1.2
+[DEBUG]   Included: org.apache.maven.shared:file-management:jar:1.2.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-io:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.9
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-analyzer:jar:1.5
+[DEBUG]   Included: org.ow2.asm:asm:jar:5.0.2
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-invoker:jar:2.1.1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.1
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.2
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:2.5
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=129481, ConflictMarker.markTime=38683, ConflictMarker.nodeCount=84, ConflictIdSorter.graphTime=79202, ConflictIdSorter.topsortTime=27746, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=822302, ConflictResolver.conflictItemCount=71, DefaultDependencyCollector.collectTime=112367464, DefaultDependencyCollector.transformTime=1120433}
+[DEBUG] org.sonatype.plugins:nexus-staging-maven-plugin:jar:1.6.5:
+[DEBUG]    org.sonatype.nexus.maven:nexus-common:jar:1.6.5:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.7:compile
+[DEBUG]    com.google.guava:guava:jar:14.0.1:compile
+[DEBUG]    org.sonatype.nexus:nexus-client-core:jar:2.9.1-02:compile
+[DEBUG]       org.sonatype.nexus.plugins:nexus-restlet1x-model:jar:2.9.1-02:compile
+[DEBUG]          org.apache.maven:maven-model:jar:3.0.4:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.7:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       com.intellij:annotations:jar:9.0.4:compile
+[DEBUG]       commons-io:commons-io:jar:2.4:compile
+[DEBUG]       com.thoughtworks.xstream:xstream:jar:1.4.7:compile
+[DEBUG]          xmlpull:xmlpull:jar:1.1.3.1:compile
+[DEBUG]          xpp3:xpp3_min:jar:1.1.4c:compile
+[DEBUG]       joda-time:joda-time:jar:2.2:compile
+[DEBUG]       commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]       commons-beanutils:commons-beanutils-core:jar:1.8.3:compile
+[DEBUG]       org.sonatype.sisu.siesta:siesta-client:jar:1.7:compile
+[DEBUG]          org.sonatype.sisu.siesta:siesta-common:jar:1.7:compile
+[DEBUG]             javax.ws.rs:jsr311-api:jar:1.1.1:compile
+[DEBUG]             com.sun.jersey:jersey-core:jar:1.17.1:compile
+[DEBUG]             javax.validation:validation-api:jar:1.1.0.Final:compile
+[DEBUG]          com.sun.jersey:jersey-client:jar:1.17.1:compile
+[DEBUG]          com.sun.jersey.contribs:jersey-apache-client4:jar:1.17.1:compile
+[DEBUG]       org.sonatype.sisu.siesta:siesta-jackson:jar:1.7:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.3.1:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.3.1:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:compile
+[DEBUG]          com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.3.1:compile
+[DEBUG]             com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.3.1:compile
+[DEBUG]          com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.3.1:compile
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.3.5:compile
+[DEBUG]          commons-codec:commons-codec:jar:1.6:compile
+[DEBUG]       org.apache.httpcomponents:httpcore:jar:4.3.2:compile
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.7.7:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]    org.sonatype.spice.zapper:spice-zapper:jar:1.3:compile
+[DEBUG]       org.fusesource.hawtbuf:hawtbuf-proto:jar:1.9:compile
+[DEBUG]          org.fusesource.hawtbuf:hawtbuf:jar:1.9:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.8:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.15:compile
+[DEBUG]    org.sonatype.aether:aether-api:jar:1.13.1:compile
+[DEBUG]    ch.qos.logback:logback-core:jar:1.1.2:runtime
+[DEBUG]    ch.qos.logback:logback-classic:jar:1.1.2:runtime
+[DEBUG] Created new class realm extension>org.sonatype.plugins:nexus-staging-maven-plugin:1.6.5
+[DEBUG] Importing foreign packages into class realm extension>org.sonatype.plugins:nexus-staging-maven-plugin:1.6.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.sonatype.plugins:nexus-staging-maven-plugin:1.6.5
+[DEBUG]   Included: org.sonatype.plugins:nexus-staging-maven-plugin:jar:1.6.5
+[DEBUG]   Included: org.sonatype.nexus.maven:nexus-common:jar:1.6.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.7
+[DEBUG]   Included: com.google.guava:guava:jar:14.0.1
+[DEBUG]   Included: org.sonatype.nexus:nexus-client-core:jar:2.9.1-02
+[DEBUG]   Included: org.sonatype.nexus.plugins:nexus-restlet1x-model:jar:2.9.1-02
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: com.intellij:annotations:jar:9.0.4
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: com.thoughtworks.xstream:xstream:jar:1.4.7
+[DEBUG]   Included: xmlpull:xmlpull:jar:1.1.3.1
+[DEBUG]   Included: xpp3:xpp3_min:jar:1.1.4c
+[DEBUG]   Included: joda-time:joda-time:jar:2.2
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: commons-beanutils:commons-beanutils-core:jar:1.8.3
+[DEBUG]   Included: org.sonatype.sisu.siesta:siesta-client:jar:1.7
+[DEBUG]   Included: org.sonatype.sisu.siesta:siesta-common:jar:1.7
+[DEBUG]   Included: javax.ws.rs:jsr311-api:jar:1.1.1
+[DEBUG]   Included: com.sun.jersey:jersey-core:jar:1.17.1
+[DEBUG]   Included: javax.validation:validation-api:jar:1.1.0.Final
+[DEBUG]   Included: com.sun.jersey:jersey-client:jar:1.17.1
+[DEBUG]   Included: com.sun.jersey.contribs:jersey-apache-client4:jar:1.17.1
+[DEBUG]   Included: org.sonatype.sisu.siesta:siesta-jackson:jar:1.7
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-annotations:jar:2.3.1
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-core:jar:2.3.1
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-databind:jar:2.3.1
+[DEBUG]   Included: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.3.1
+[DEBUG]   Included: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.3.1
+[DEBUG]   Included: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.3.1
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.3.5
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.6
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.3.2
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.7.7
+[DEBUG]   Included: org.sonatype.spice.zapper:spice-zapper:jar:1.3
+[DEBUG]   Included: org.fusesource.hawtbuf:hawtbuf-proto:jar:1.9
+[DEBUG]   Included: org.fusesource.hawtbuf:hawtbuf:jar:1.9
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.8
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.15
+[DEBUG]   Included: ch.qos.logback:logback-core:jar:1.1.2
+[DEBUG]   Included: ch.qos.logback:logback-classic:jar:1.1.2
+[DEBUG] Extension realms for project org.apache.nifi:nifi-bigquery-bundle:pom:0.2.0: [ClassRealm[extension>org.apache.nifi:nifi-nar-maven-plugin:1.1.0, parent: sun.misc.Launcher$AppClassLoader@7852e922], ClassRealm[extension>org.sonatype.plugins:nexus-staging-maven-plugin:1.6.5, parent: sun.misc.Launcher$AppClassLoader@7852e922]]
+[DEBUG] Created new class realm project>org.apache.nifi:nifi-bigquery-bundle:0.2.0
+[DEBUG] Populating class realm project>org.apache.nifi:nifi-bigquery-bundle:0.2.0
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[project>org.apache.nifi:nifi-bigquery-bundle:0.2.0, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] Extension realms for project org.apache.nifi:nifi-nar-bundles:pom:1.0.0: [ClassRealm[extension>org.apache.nifi:nifi-nar-maven-plugin:1.1.0, parent: sun.misc.Launcher$AppClassLoader@7852e922], ClassRealm[extension>org.sonatype.plugins:nexus-staging-maven-plugin:1.6.5, parent: sun.misc.Launcher$AppClassLoader@7852e922]]
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[project>org.apache.nifi:nifi-bigquery-bundle:0.2.0, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] Extension realms for project org.apache.nifi:nifi:pom:1.0.0: [ClassRealm[extension>org.apache.nifi:nifi-nar-maven-plugin:1.1.0, parent: sun.misc.Launcher$AppClassLoader@7852e922], ClassRealm[extension>org.sonatype.plugins:nexus-staging-maven-plugin:1.6.5, parent: sun.misc.Launcher$AppClassLoader@7852e922]]
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[project>org.apache.nifi:nifi-bigquery-bundle:0.2.0, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] Extension realms for project org.apache:apache:pom:17: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.apache.nifi:nifi-bigquery-processors:jar:0.2.0: [ClassRealm[extension>org.apache.nifi:nifi-nar-maven-plugin:1.1.0, parent: sun.misc.Launcher$AppClassLoader@7852e922], ClassRealm[extension>org.sonatype.plugins:nexus-staging-maven-plugin:1.6.5, parent: sun.misc.Launcher$AppClassLoader@7852e922]]
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[project>org.apache.nifi:nifi-bigquery-bundle:0.2.0, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] Extension realms for project org.apache.nifi:nifi-bigquery-nar:nar:0.2.0: [ClassRealm[extension>org.apache.nifi:nifi-nar-maven-plugin:1.1.0, parent: sun.misc.Launcher$AppClassLoader@7852e922], ClassRealm[extension>org.sonatype.plugins:nexus-staging-maven-plugin:1.6.5, parent: sun.misc.Launcher$AppClassLoader@7852e922]]
+[DEBUG] Looking up lifecycle mappings for packaging nar from ClassRealm[project>org.apache.nifi:nifi-bigquery-bundle:0.2.0, parent: ClassRealm[maven.api, parent: null]]
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.nifi:nifi-bigquery-processors:jar:0.2.0
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.fasterxml.jackson.core:jackson-databind:jar -> version 2.9.8 vs (?) @ line 87, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 3 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 3 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] nifi-bigquery-bundle                                               [pom]
+[INFO] nifi-bigquery-processors                                           [jar]
+[INFO] nifi-bigquery-nar                                                  [nar]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.apache.nifi:nifi-bigquery-bundle:pom:0.2.0
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: org.apache.nifi:nifi-bigquery-processors:jar:0.2.0
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: org.apache.nifi:nifi-bigquery-nar:nar:0.2.0
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ----------------< org.apache.nifi:nifi-bigquery-bundle >----------------
+[INFO] Building nifi-bigquery-bundle 0.2.0                                [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.apache.nifi:nifi-bigquery-bundle:0.2.0
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [central (https://repo1.maven.org/maven2, default, releases), apache-repo (https://repository.apache.org/content/repositories/releases, default, releases), jcenter (http://jcenter.bintray.com, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-enforcer-plugin:1.3.1:enforce (enforce-maven)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <fail default-value="true">${enforcer.fail}</fail>
+  <failFast default-value="false">${enforcer.failFast}</failFast>
+  <ignoreCache default-value="false">${enforcer.ignoreCache}</ignoreCache>
+  <rules>
+    <requireSameVersions>
+      <plugins>
+        <plugin>org.apache.maven.plugins:maven-surefire-plugin</plugin>
+        <plugin>org.apache.maven.plugins:maven-failsafe-plugin</plugin>
+        <plugin>org.apache.maven.plugins:maven-surefire-report-plugin</plugin>
+      </plugins>
+    </requireSameVersions>
+    <requireMavenVersion>
+      <version>3.1.0</version>
+    </requireMavenVersion>
+  </rules>
+  <skip default-value="false">${enforcer.skip}</skip>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-remote-resources-plugin:1.5:process (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appendedResourcesDirectory default-value="${basedir}/src/main/appended-resources"/>
+  <attachToMain default-value="true">${attachToMain}</attachToMain>
+  <attachToTest default-value="true">${attachToTest}</attachToTest>
+  <attached default-value="true"/>
+  <basedir default-value="${basedir}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <excludeArtifactIds default-value="">${excludeArtifactIds}</excludeArtifactIds>
+  <excludeGroupIds default-value="">${excludeGroupIds}</excludeGroupIds>
+  <excludeScope default-value="">${excludeScope}</excludeScope>
+  <excludeTransitive default-value="false">${excludeTransitive}</excludeTransitive>
+  <includeArtifactIds default-value="">${includeArtifactIds}</includeArtifactIds>
+  <includeGroupIds default-value="">${includeGroupIds}</includeGroupIds>
+  <includeProjectProperties default-value="false"/>
+  <includeScope default-value="runtime">${includeScope}</includeScope>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory default-value="${project.build.directory}/maven-shared-archive-resources"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <resourceBundles>
+    <resourceBundle>org.apache:apache-jar-resource-bundle:1.4</resourceBundle>
+  </resourceBundles>
+  <resources default-value="${project.resources}"/>
+  <runOnlyAtExecutionRoot default-value="false"/>
+  <skip default-value="false">${remoteresources.skip}</skip>
+  <useDefaultFilterDelimiters default-value="true"/>
+  <mavenSession default-value="${session}"/>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.2:testCompile (groovy-tests)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">groovy-eclipse-compiler</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">true</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">true</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">true</showDeprecation>
+  <showWarnings default-value="false">true</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.8</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-site-plugin:3.4:attach-descriptor (attach-descriptor)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir>${basedir}</basedir>
+  <inputEncoding default-value="${project.build.sourceEncoding}">${encoding}</inputEncoding>
+  <localRepository default-value="${localRepository}"/>
+  <locales>${locales}</locales>
+  <outputEncoding default-value="${project.reporting.outputEncoding}">${outputEncoding}</outputEncoding>
+  <pomPackagingOnly default-value="true"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <siteDirectory default-value="${basedir}/src/site"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.5.2:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <installAtEnd default-value="false">${installAtEnd}</installAtEnd>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=49727, ConflictMarker.markTime=21300, ConflictMarker.nodeCount=9, ConflictIdSorter.graphTime=6023, ConflictIdSorter.topsortTime=13054, ConflictIdSorter.conflictIdCount=7, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=320626, ConflictResolver.conflictItemCount=8, DefaultDependencyCollector.collectTime=10760113, DefaultDependencyCollector.transformTime=422372}
+[DEBUG] org.apache.nifi:nifi-bigquery-bundle:pom:0.2.0
+[DEBUG]    junit:junit:jar:4.12:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]    org.mockito:mockito-core:jar:1.10.19:test
+[DEBUG]       org.objenesis:objenesis:jar:2.1:test
+[DEBUG]    org.slf4j:slf4j-simple:jar:1.7.12:test
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.12:provided (scope managed from compile) (version managed from 1.7.12)
+[DEBUG]    org.codehaus.groovy:groovy-all:jar:2.4.5:test
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ nifi-bigquery-bundle ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=7266, ConflictMarker.markTime=16997, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=3802, ConflictIdSorter.topsortTime=7051, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=77627, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=1641897, DefaultDependencyCollector.transformTime=123511}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < project>org.apache.nifi:nifi-bigquery-bundle:0.2.0
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@7852e922]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/pawndev/workspace/github/nifi-bigquery-bundle/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/pawndev/workspace/github/nifi-bigquery-bundle/target/classes
+[DEBUG]   (f) reportDirectory = /home/pawndev/workspace/github/nifi-bigquery-bundle/target/site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/pawndev/workspace/github/nifi-bigquery-bundle/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /home/pawndev/workspace/github/nifi-bigquery-bundle/target
+[INFO] Deleting file /home/pawndev/workspace/github/nifi-bigquery-bundle/target/.plxarc
+[INFO] Deleting file /home/pawndev/workspace/github/nifi-bigquery-bundle/target/maven-shared-archive-resources/META-INF/DEPENDENCIES
+[INFO] Deleting file /home/pawndev/workspace/github/nifi-bigquery-bundle/target/maven-shared-archive-resources/META-INF/LICENSE
+[INFO] Deleting file /home/pawndev/workspace/github/nifi-bigquery-bundle/target/maven-shared-archive-resources/META-INF/NOTICE
+[INFO] Deleting directory /home/pawndev/workspace/github/nifi-bigquery-bundle/target/maven-shared-archive-resources/META-INF
+[INFO] Deleting directory /home/pawndev/workspace/github/nifi-bigquery-bundle/target/maven-shared-archive-resources
+[INFO] Deleting directory /home/pawndev/workspace/github/nifi-bigquery-bundle/target
+[DEBUG] Skipping non-existing directory /home/pawndev/workspace/github/nifi-bigquery-bundle/target/classes
+[DEBUG] Skipping non-existing directory /home/pawndev/workspace/github/nifi-bigquery-bundle/target/test-classes
+[DEBUG] Skipping non-existing directory /home/pawndev/workspace/github/nifi-bigquery-bundle/target/site
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ nifi-bigquery-bundle ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=123626, ConflictMarker.markTime=81273, ConflictMarker.nodeCount=101, ConflictIdSorter.graphTime=31513, ConflictIdSorter.topsortTime=26234, ConflictIdSorter.conflictIdCount=38, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1135559, ConflictResolver.conflictItemCount=85, DefaultDependencyCollector.collectTime=33385113, DefaultDependencyCollector.transformTime=1418982}
+[DEBUG] org.apache.maven.plugins:maven-enforcer-plugin:jar:1.3.1:
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.11:test
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-10:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.8:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.3:compile
+[DEBUG]    org.apache.maven.enforcer:enforcer-api:jar:1.3.1:compile
+[DEBUG]    org.apache.maven.enforcer:enforcer-rules:jar:1.3.1:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.4:compile
+[DEBUG]       org.beanshell:bsh:jar:2.0b4:compile
+[DEBUG]       org.apache.maven.shared:maven-dependency-tree:jar:2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]          org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.3.1
+[DEBUG]   Imported:  < project>org.apache.nifi:nifi-bigquery-bundle:0.2.0
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-enforcer-plugin:jar:1.3.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-10
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.8
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.3
+[DEBUG]   Included: org.apache.maven.enforcer:enforcer-api:jar:1.3.1
+[DEBUG]   Included: org.apache.maven.enforcer:enforcer-rules:jar:1.3.1
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.4
+[DEBUG]   Included: org.beanshell:bsh:jar:2.0b4
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-enforcer-plugin:1.3.1:enforce from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.3.1, parent: sun.misc.Launcher$AppClassLoader@7852e922]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-enforcer-plugin:1.3.1:enforce' with basic configurator -->
+[DEBUG]   (s) fail = true
+[DEBUG]   (s) failFast = false
+[DEBUG]   (f) ignoreCache = false
+[DEBUG]   (f) plugins = [org.apache.maven.plugins:maven-surefire-plugin, org.apache.maven.plugins:maven-failsafe-plugin, org.apache.maven.plugins:maven-surefire-report-plugin]
+[DEBUG]   (s) version = 3.1.0
+[DEBUG]   (s) rules = [org.apache.maven.plugins.enforcer.RequireSameVersions@3a08078c, org.apache.maven.plugins.enforcer.RequireMavenVersion@53830483]
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) project = MavenProject: org.apache.nifi:nifi-bigquery-bundle:0.2.0 @ /home/pawndev/workspace/github/nifi-bigquery-bundle/pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@29f85fe1
+[DEBUG] -- end configuration --
+[DEBUG] Executing rule: org.apache.maven.plugins.enforcer.RequireSameVersions
+[DEBUG] Executing rule: org.apache.maven.plugins.enforcer.RequireMavenVersion
+[DEBUG] Rule org.apache.maven.plugins.enforcer.RequireMavenVersion is cacheable.
+[DEBUG] Detected Maven Version: 3.6.1
+[DEBUG] Detected Maven Version: 3.6.1 is allowed in the range 3.1.0.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ nifi-bigquery-bundle ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=132941, ConflictMarker.markTime=57773, ConflictMarker.nodeCount=185, ConflictIdSorter.graphTime=40610, ConflictIdSorter.topsortTime=25024, ConflictIdSorter.conflictIdCount=44, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1208290, ConflictResolver.conflictItemCount=100, DefaultDependencyCollector.collectTime=10302684, DefaultDependencyCollector.transformTime=1483613}
+[DEBUG] org.apache.maven.plugins:maven-remote-resources-plugin:jar:1.5:
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.shared:maven-artifact-resolver:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-common-artifact-filters:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-resources:jar:1.0-alpha-7:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.12:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.15:compile
+[DEBUG]    org.apache.velocity:velocity:jar:1.7:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]       commons-lang:commons-lang:jar:2.4:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-remote-resources-plugin:1.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-remote-resources-plugin:1.5
+[DEBUG]   Imported:  < project>org.apache.nifi:nifi-bigquery-bundle:0.2.0
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-remote-resources-plugin:1.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-remote-resources-plugin:jar:1.5
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-artifact-resolver:jar:1.0
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-resources:jar:1.0-alpha-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.12
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.15
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.7
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.4
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-remote-resources-plugin:1.5:process from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-remote-resources-plugin:1.5, parent: sun.misc.Launcher$AppClassLoader@7852e922]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-remote-resources-plugin:1.5:process' with basic configurator -->
+[DEBUG]   (f) appendedResourcesDirectory = /home/pawndev/workspace/github/nifi-bigquery-bundle/src/main/appended-resources
+[DEBUG]   (f) attachToMain = true
+[DEBUG]   (f) attachToTest = true
+[DEBUG]   (f) attached = true
+[DEBUG]   (f) basedir = /home/pawndev/workspace/github/nifi-bigquery-bundle
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) excludeTransitive = false
+[DEBUG]   (f) includeProjectProperties = false
+[DEBUG]   (f) includeScope = runtime
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///home/pawndev/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = /home/pawndev/workspace/github/nifi-bigquery-bundle/target/maven-shared-archive-resources
+[DEBUG]   (f) remoteArtifactRepositories = [      id: central
+      url: https://repo1.maven.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: apache-repo
+      url: https://repository.apache.org/content/repositories/releases
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: jcenter
+      url: http://jcenter.bintray.com
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: apache.snapshots
+      url: http://repository.apache.org/snapshots
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => false, update => daily]
+]
+[DEBUG]   (f) resourceBundles = [org.apache:apache-jar-resource-bundle:1.4]
+[DEBUG]   (f) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/pawndev/workspace/github/nifi-bigquery-bundle/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) runOnlyAtExecutionRoot = false
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) useDefaultFilterDelimiters = true
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@29f85fe1
+[DEBUG]   (f) project = MavenProject: org.apache.nifi:nifi-bigquery-bundle:0.2.0 @ /home/pawndev/workspace/github/nifi-bigquery-bundle/pom.xml
+[DEBUG] -- end configuration --
+[DEBUG] Initializing Velocity, Calling init()...
+[DEBUG] *******************************************************************
+[DEBUG] Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+[DEBUG] RuntimeInstance initializing.
+[DEBUG] Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+[DEBUG] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+[DEBUG] ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+[DEBUG] ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+[DEBUG] Default ResourceManager initialization complete.
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Define
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Break
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+[DEBUG] Velocimacro : initialization starting.
+[DEBUG] Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+[DEBUG] Velocimacro : Default library not found.
+[DEBUG] Velocimacro : allowInline = true : VMs can be defined inline in templates
+[DEBUG] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+[DEBUG] Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+[DEBUG] Velocimacro : autoload off : VM system will not automatically reload global library macros
+[DEBUG] Velocimacro : Velocimacro : initialization complete.
+[DEBUG] RuntimeInstance successfully initialized.
+[DEBUG] Supplemental data models won't be loaded.  No models specified.
+[DEBUG] inceptionYear not specified, defaulting to 2019
+[DEBUG] org.apache.nifi:nifi-bigquery-bundle:pom:0.2.0 (selected for null)
+[DEBUG]   junit:junit:jar:4.12:test (selected for test)
+[DEBUG]     org.hamcrest:hamcrest-core:jar:1.3:test (selected for test)
+[DEBUG]   org.mockito:mockito-core:jar:1.10.19:test (selected for test)
+[DEBUG]     org.hamcrest:hamcrest-core:jar:1.1:test (removed - nearer found: 1.3)
+[DEBUG]     org.objenesis:objenesis:jar:2.1:test (selected for test)
+[DEBUG]   org.slf4j:slf4j-simple:jar:1.7.12:test (selected for test)
+[DEBUG]     org.slf4j:slf4j-api:jar:1.7.12:test (applying artifactScope: provided)
+[DEBUG]     org.slf4j:slf4j-api:jar:1.7.12:provided (selected for provided)
+[DEBUG]   org.codehaus.groovy:groovy-all:jar:2.4.5:test (selected for test)
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (groovy-tests) @ nifi-bigquery-bundle ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=143671, ConflictMarker.markTime=69466, ConflictMarker.nodeCount=227, ConflictIdSorter.graphTime=53774, ConflictIdSorter.topsortTime=105608, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=1, ConflictResolver.totalTime=794283, ConflictResolver.conflictItemCount=69, DefaultDependencyCollector.collectTime=14968888, DefaultDependencyCollector.transformTime=1181031}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.2:
+[DEBUG]    org.codehaus.groovy:groovy-eclipse-compiler:jar:2.9.2-01:runtime
+[DEBUG]    org.codehaus.groovy:groovy-eclipse-batch:jar:2.4.3-01:runtime
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.4:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.2
+[DEBUG]   Imported:  < project>org.apache.nifi:nifi-bigquery-bundle:0.2.0
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.2
+[DEBUG]   Included: org.codehaus.groovy:groovy-eclipse-compiler:jar:2.9.2-01
+[DEBUG]   Included: org.codehaus.groovy:groovy-eclipse-batch:jar:2.4.3-01
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.4
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.2:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.2, parent: sun.misc.Launcher$AppClassLoader@7852e922]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.2:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/pawndev/workspace/github/nifi-bigquery-bundle
+[DEBUG]   (f) buildDirectory = /home/pawndev/workspace/github/nifi-bigquery-bundle/target
+[DEBUG]   (f) classpathElements = [/home/pawndev/workspace/github/nifi-bigquery-bundle/target/test-classes, /home/pawndev/workspace/github/nifi-bigquery-bundle/target/classes, /home/pawndev/.m2/repository/junit/junit/4.12/junit-4.12.jar, /home/pawndev/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, /home/pawndev/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar, /home/pawndev/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar, /home/pawndev/.m2/repository/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar, /home/pawndev/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar, /home/pawndev/.m2/repository/org/codehaus/groovy/groovy-all/2.4.5/groovy-all-2.4.5.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/pawndev/workspace/github/nifi-bigquery-bundle/src/test/java]
+[DEBUG]   (f) compilerId = groovy-eclipse-compiler
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = true
+[DEBUG]   (f) generatedTestSourcesDirectory = /home/pawndev/workspace/github/nifi-bigquery-bundle/target/generated-test-sources/test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.2:testCompile {execution: groovy-tests}
+[DEBUG]   (f) optimize = true
+[DEBUG]   (f) outputDirectory = /home/pawndev/workspace/github/nifi-bigquery-bundle/target/test-classes
+[DEBUG]   (f) project = MavenProject: org.apache.nifi:nifi-bigquery-bundle:0.2.0 @ /home/pawndev/workspace/github/nifi-bigquery-bundle/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@29f85fe1
+[DEBUG]   (f) showDeprecation = true
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'groovy-eclipse-compiler'.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-site-plugin:3.4:attach-descriptor (attach-descriptor) @ nifi-bigquery-bundle ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=189668, ConflictMarker.markTime=98960, ConflictMarker.nodeCount=336, ConflictIdSorter.graphTime=90006, ConflictIdSorter.topsortTime=65423, ConflictIdSorter.conflictIdCount=97, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2134458, ConflictResolver.conflictItemCount=220, DefaultDependencyCollector.collectTime=48634604, DefaultDependencyCollector.transformTime=2622552}
+[DEBUG] org.apache.maven.plugins:maven-site-plugin:jar:3.4:
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:runtime
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.15:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.4.4:runtime
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.10:runtime
+[DEBUG]       org.apache.commons:commons-compress:jar:1.5:runtime
+[DEBUG]          org.tukaani:xz:jar:1.2:runtime
+[DEBUG]    org.apache.maven.doxia:doxia-core:jar:1.6:runtime
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.0.2:runtime
+[DEBUG]          commons-logging:commons-logging:jar:1.1.1:compile
+[DEBUG]          commons-codec:commons-codec:jar:1.3:runtime
+[DEBUG]       org.apache.httpcomponents:httpcore:jar:4.0.1:runtime
+[DEBUG]       xmlunit:xmlunit:jar:1.5:runtime
+[DEBUG]    org.apache.maven.reporting:maven-reporting-exec:jar:1.2:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:0.3:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]    org.apache.maven.doxia:doxia-sink-api:jar:1.6:compile
+[DEBUG]    org.apache.maven.doxia:doxia-logging-api:jar:1.6:compile
+[DEBUG]    org.apache.maven.doxia:doxia-module-xhtml:jar:1.6:compile
+[DEBUG]    org.apache.maven.doxia:doxia-module-apt:jar:1.6:runtime
+[DEBUG]    org.apache.maven.doxia:doxia-module-xdoc:jar:1.6:compile
+[DEBUG]    org.apache.maven.doxia:doxia-module-fml:jar:1.6:runtime
+[DEBUG]    org.apache.maven.doxia:doxia-module-markdown:jar:1.6:runtime
+[DEBUG]       org.pegdown:pegdown:jar:1.2.1:runtime
+[DEBUG]          org.parboiled:parboiled-java:jar:1.1.4:runtime
+[DEBUG]             org.parboiled:parboiled-core:jar:1.1.4:runtime
+[DEBUG]             org.ow2.asm:asm:jar:4.1:runtime
+[DEBUG]             org.ow2.asm:asm-tree:jar:4.1:runtime
+[DEBUG]             org.ow2.asm:asm-analysis:jar:4.1:runtime
+[DEBUG]             org.ow2.asm:asm-util:jar:4.1:runtime
+[DEBUG]    javax.servlet:servlet-api:jar:2.5:compile
+[DEBUG]    org.apache.maven.doxia:doxia-decoration-model:jar:1.6:compile
+[DEBUG]    org.apache.maven.doxia:doxia-site-renderer:jar:1.6:compile
+[DEBUG]       org.apache.velocity:velocity-tools:jar:2.0:compile
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]          commons-digester:commons-digester:jar:1.8:compile
+[DEBUG]          commons-chain:commons-chain:jar:1.1:compile
+[DEBUG]          commons-validator:commons-validator:jar:1.3.1:compile
+[DEBUG]          dom4j:dom4j:jar:1.1:compile
+[DEBUG]          sslext:sslext:jar:1.2-0:compile
+[DEBUG]          org.apache.struts:struts-core:jar:1.3.8:compile
+[DEBUG]             antlr:antlr:jar:2.7.2:compile
+[DEBUG]          org.apache.struts:struts-taglib:jar:1.3.8:compile
+[DEBUG]          org.apache.struts:struts-tiles:jar:1.3.8:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]    org.apache.maven.doxia:doxia-integration-tools:jar:1.6:compile
+[DEBUG]    org.apache.maven.wagon:wagon-provider-api:jar:1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]    org.apache.velocity:velocity:jar:1.5:compile
+[DEBUG]       oro:oro:jar:2.0.8:compile
+[DEBUG]    org.codehaus.plexus:plexus-velocity:jar:1.1.8:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.15:compile
+[DEBUG]    org.mortbay.jetty:jetty:jar:6.1.25:compile
+[DEBUG]       org.mortbay.jetty:servlet-api:jar:2.5-20081211:compile
+[DEBUG]    org.mortbay.jetty:jetty-util:jar:6.1.25:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.5:compile
+[DEBUG]    commons-io:commons-io:jar:1.4:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-site-plugin:3.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-site-plugin:3.4
+[DEBUG]   Imported:  < project>org.apache.nifi:nifi-bigquery-bundle:0.2.0
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-site-plugin:3.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-site-plugin:jar:3.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.15
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.4.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.10
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.5
+[DEBUG]   Included: org.tukaani:xz:jar:1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.6
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.0.2
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.1.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.3
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.0.1
+[DEBUG]   Included: xmlunit:xmlunit:jar:1.5
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-exec:jar:1.2
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.3
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-apt:jar:1.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xdoc:jar:1.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-fml:jar:1.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-markdown:jar:1.6
+[DEBUG]   Included: org.pegdown:pegdown:jar:1.2.1
+[DEBUG]   Included: org.parboiled:parboiled-java:jar:1.1.4
+[DEBUG]   Included: org.parboiled:parboiled-core:jar:1.1.4
+[DEBUG]   Included: org.ow2.asm:asm:jar:4.1
+[DEBUG]   Included: org.ow2.asm:asm-tree:jar:4.1
+[DEBUG]   Included: org.ow2.asm:asm-analysis:jar:4.1
+[DEBUG]   Included: org.ow2.asm:asm-util:jar:4.1
+[DEBUG]   Included: javax.servlet:servlet-api:jar:2.5
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.6
+[DEBUG]   Included: org.apache.velocity:velocity-tools:jar:2.0
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.8
+[DEBUG]   Included: commons-chain:commons-chain:jar:1.1
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.3.1
+[DEBUG]   Included: dom4j:dom4j:jar:1.1
+[DEBUG]   Included: sslext:sslext:jar:1.2-0
+[DEBUG]   Included: org.apache.struts:struts-core:jar:1.3.8
+[DEBUG]   Included: antlr:antlr:jar:2.7.2
+[DEBUG]   Included: org.apache.struts:struts-taglib:jar:1.3.8
+[DEBUG]   Included: org.apache.struts:struts-tiles:jar:1.3.8
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-integration-tools:jar:1.6
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.5
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.1.8
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.15
+[DEBUG]   Included: org.mortbay.jetty:jetty:jar:6.1.25
+[DEBUG]   Included: org.mortbay.jetty:servlet-api:jar:2.5-20081211
+[DEBUG]   Included: org.mortbay.jetty:jetty-util:jar:6.1.25
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.5
+[DEBUG]   Included: commons-io:commons-io:jar:1.4
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-site-plugin:3.4:attach-descriptor from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-site-plugin:3.4, parent: sun.misc.Launcher$AppClassLoader@7852e922]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-site-plugin:3.4:attach-descriptor' with basic configurator -->
+[DEBUG]   (f) basedir = /home/pawndev/workspace/github/nifi-bigquery-bundle
+[DEBUG]   (f) inputEncoding = UTF-8
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///home/pawndev/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputEncoding = UTF-8
+[DEBUG]   (f) pomPackagingOnly = true
+[DEBUG]   (f) project = MavenProject: org.apache.nifi:nifi-bigquery-bundle:0.2.0 @ /home/pawndev/workspace/github/nifi-bigquery-bundle/pom.xml
+[DEBUG]   (f) reactorProjects = [MavenProject: org.apache.nifi:nifi-bigquery-bundle:0.2.0 @ /home/pawndev/workspace/github/nifi-bigquery-bundle/pom.xml, MavenProject: org.apache.nifi:nifi-bigquery-processors:0.2.0 @ /home/pawndev/workspace/github/nifi-bigquery-bundle/nifi-bigquery-processors/pom.xml, MavenProject: org.apache.nifi:nifi-bigquery-nar:0.2.0 @ /home/pawndev/workspace/github/nifi-bigquery-bundle/nifi-bigquery-nar/pom.xml]
+[DEBUG]   (f) siteDirectory = /home/pawndev/workspace/github/nifi-bigquery-bundle/src/site
+[DEBUG] -- end configuration --
+[DEBUG] Mapped url: /home/pawndev/workspace/github/nifi-bigquery-bundle/src/site to relative path: src/site
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ nifi-bigquery-bundle ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=26269, ConflictMarker.markTime=21449, ConflictMarker.nodeCount=40, ConflictIdSorter.graphTime=14128, ConflictIdSorter.topsortTime=40438, ConflictIdSorter.conflictIdCount=19, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=244851, ConflictResolver.conflictItemCount=40, DefaultDependencyCollector.collectTime=2517721, DefaultDependencyCollector.transformTime=365469}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.5.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    commons-codec:commons-codec:jar:1.6:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.4:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.15:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG]   Imported:  < project>org.apache.nifi:nifi-bigquery-bundle:0.2.0
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.5.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.6
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.4
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.15
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.5.2:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2, parent: sun.misc.Launcher$AppClassLoader@7852e922]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.5.2:install' with basic configurator -->
+[DEBUG]   (f) artifact = org.apache.nifi:nifi-bigquery-bundle:pom:0.2.0
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) installAtEnd = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///home/pawndev/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = pom
+[DEBUG]   (f) pomFile = /home/pawndev/workspace/github/nifi-bigquery-bundle/pom.xml
+[DEBUG]   (f) project = MavenProject: org.apache.nifi:nifi-bigquery-bundle:0.2.0 @ /home/pawndev/workspace/github/nifi-bigquery-bundle/pom.xml
+[DEBUG]   (f) reactorProjects = [MavenProject: org.apache.nifi:nifi-bigquery-bundle:0.2.0 @ /home/pawndev/workspace/github/nifi-bigquery-bundle/pom.xml, MavenProject: org.apache.nifi:nifi-bigquery-processors:0.2.0 @ /home/pawndev/workspace/github/nifi-bigquery-bundle/nifi-bigquery-processors/pom.xml, MavenProject: org.apache.nifi:nifi-bigquery-nar:0.2.0 @ /home/pawndev/workspace/github/nifi-bigquery-bundle/nifi-bigquery-nar/pom.xml]
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing /home/pawndev/workspace/github/nifi-bigquery-bundle/pom.xml to /home/pawndev/.m2/repository/org/apache/nifi/nifi-bigquery-bundle/0.2.0/nifi-bigquery-bundle-0.2.0.pom
+[DEBUG] Writing tracking file /home/pawndev/.m2/repository/org/apache/nifi/nifi-bigquery-bundle/0.2.0/_remote.repositories
+[DEBUG] Installing org.apache.nifi:nifi-bigquery-bundle/maven-metadata.xml to /home/pawndev/.m2/repository/org/apache/nifi/nifi-bigquery-bundle/maven-metadata-local.xml
+[INFO] 
+[INFO] --------------< org.apache.nifi:nifi-bigquery-processors >--------------
+[INFO] Building nifi-bigquery-processors 0.2.0                            [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.apache.nifi:nifi-bigquery-processors:0.2.0
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [central (https://repo1.maven.org/maven2, default, releases), apache-repo (https://repository.apache.org/content/repositories/releases, default, releases), jcenter (http://jcenter.bintray.com, default, releases), apache.snapshots (http://repository.apache.org/snapshots, default, snapshots)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-enforcer-plugin:1.3.1:enforce (enforce-maven)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <fail default-value="true">${enforcer.fail}</fail>
+  <failFast default-value="false">${enforcer.failFast}</failFast>
+  <ignoreCache default-value="false">${enforcer.ignoreCache}</ignoreCache>
+  <rules>
+    <requireSameVersions>
+      <plugins>
+        <plugin>org.apache.maven.plugins:maven-surefire-plugin</plugin>
+        <plugin>org.apache.maven.plugins:maven-failsafe-plugin</plugin>
+        <plugin>org.apache.maven.plugins:maven-surefire-report-plugin</plugin>
+      </plugins>
+    </requireSameVersions>
+    <requireMavenVersion>
+      <version>3.1.0</version>
+    </requireMavenVersion>
+  </rules>
+  <skip default-value="false">${enforcer.skip}</skip>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-remote-resources-plugin:1.5:process (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appendedResourcesDirectory default-value="${basedir}/src/main/appended-resources"/>
+  <attachToMain default-value="true">${attachToMain}</attachToMain>
+  <attachToTest default-value="true">${attachToTest}</attachToTest>
+  <attached default-value="true"/>
+  <basedir default-value="${basedir}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <excludeArtifactIds default-value="">${excludeArtifactIds}</excludeArtifactIds>
+  <excludeGroupIds default-value="">${excludeGroupIds}</excludeGroupIds>
+  <excludeScope default-value="">${excludeScope}</excludeScope>
+  <excludeTransitive default-value="false">${excludeTransitive}</excludeTransitive>
+  <includeArtifactIds default-value="">${includeArtifactIds}</includeArtifactIds>
+  <includeGroupIds default-value="">${includeGroupIds}</includeGroupIds>
+  <includeProjectProperties default-value="false"/>
+  <includeScope default-value="runtime">${includeScope}</includeScope>
+  <localRepository default-value="${localRepository}"/>
+  <outputDirectory default-value="${project.build.directory}/maven-shared-archive-resources"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <resourceBundles>
+    <resourceBundle>org.apache:apache-jar-resource-bundle:1.4</resourceBundle>
+  </resourceBundles>
+  <resources default-value="${project.resources}"/>
+  <runOnlyAtExecutionRoot default-value="false"/>
+  <skip default-value="false">${remoteresources.skip}</skip>
+  <useDefaultFilterDelimiters default-value="true"/>
+  <mavenSession default-value="${session}"/>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.7:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">true</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">true</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">true</showDeprecation>
+  <showWarnings default-value="false">true</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.8</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.7:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.2:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">true</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">true</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">true</showDeprecation>
+  <showWarnings default-value="false">true</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.8</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.2:testCompile (groovy-tests)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">groovy-eclipse-compiler</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">true</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">true</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">true</showDeprecation>
+  <showWarnings default-value="false">true</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.8</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.18:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine combine.children="append">-Xmx1G -Djava.net.preferIPv4Stack=true</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includes>
+    <include>**/*Test.class</include>
+    <include>**/Test*.class</include>
+    <include>**/*Spec.class</include>
+  </includes>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">true</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">false</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:2.5:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <archive>
+    <manifest>
+      <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+      <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+    </manifest>
+  </archive>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classifier default-value="">${maven.jar.classifier}</classifier>
+  <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+  <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+  <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <skipIfEmpty default-value="false">${jar.skipIfEmpty}</skipIfEmpty>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-site-plugin:3.4:attach-descriptor (attach-descriptor)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir>${basedir}</basedir>
+  <inputEncoding default-value="${project.build.sourceEncoding}">${encoding}</inputEncoding>
+  <localRepository default-value="${localRepository}"/>
+  <locales>${locales}</locales>
+  <outputEncoding default-value="${project.reporting.outputEncoding}">${outputEncoding}</outputEncoding>
+  <pomPackagingOnly default-value="true"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <siteDirectory default-value="${basedir}/src/site"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.5.2:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <installAtEnd default-value="false">${installAtEnd}</installAtEnd>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Could not find metadata io.grpc:grpc-core/maven-metadata.xml in local (/home/pawndev/.m2/repository)
+[DEBUG] Skipped remote request for io.grpc:grpc-core/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find io.grpc:grpc-core/maven-metadata.xml in https://repository.apache.org/content/repositories/releases was cached in the local repository, resolution will not be reattempted until the update interval of apache-repo has elapsed or updates are forced
+[DEBUG] Skipped remote request for io.grpc:grpc-core/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find io.grpc:grpc-core/maven-metadata.xml in http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[DEBUG] Could not find metadata io.grpc:grpc-core/maven-metadata.xml in local (/home/pawndev/.m2/repository)
+[DEBUG] Skipped remote request for io.grpc:grpc-core/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find io.grpc:grpc-core/maven-metadata.xml in https://repository.apache.org/content/repositories/releases was cached in the local repository, resolution will not be reattempted until the update interval of apache-repo has elapsed or updates are forced
+[DEBUG] Skipped remote request for io.grpc:grpc-core/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find io.grpc:grpc-core/maven-metadata.xml in http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[DEBUG] Could not find metadata io.netty:netty-codec-http2/maven-metadata.xml in local (/home/pawndev/.m2/repository)
+[DEBUG] Skipped remote request for io.netty:netty-codec-http2/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find io.netty:netty-codec-http2/maven-metadata.xml in https://repository.apache.org/content/repositories/releases was cached in the local repository, resolution will not be reattempted until the update interval of apache-repo has elapsed or updates are forced
+[DEBUG] Skipped remote request for io.netty:netty-codec-http2/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Failure to find io.netty:netty-codec-http2/maven-metadata.xml in http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache.snapshots has elapsed or updates are forced
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=553584, ConflictMarker.markTime=322781, ConflictMarker.nodeCount=599, ConflictIdSorter.graphTime=292598, ConflictIdSorter.topsortTime=81040, ConflictIdSorter.conflictIdCount=141, ConflictIdSorter.conflictIdCycleCount=0, DefaultDependencyCollector.collectTime=245575200, DefaultDependencyCollector.transformTime=5397479}
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for nifi-bigquery-bundle 0.2.0:
+[INFO] 
+[INFO] nifi-bigquery-bundle ............................... SUCCESS [  0.652 s]
+[INFO] nifi-bigquery-processors ........................... FAILURE [  0.325 s]
+[INFO] nifi-bigquery-nar .................................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.817 s
+[INFO] Finished at: 2019-08-12T16:37:36+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project nifi-bigquery-processors: Could not resolve dependencies for project org.apache.nifi:nifi-bigquery-processors:jar:0.2.0: Failed to collect dependencies for org.apache.nifi:nifi-bigquery-processors:jar:0.2.0: Could not resolve version conflict among [org.apache.nifi:nifi-gcp-processors:jar:1.9.2 -> com.google.cloud:google-cloud-pubsub:jar:1.53.0 -> com.google.cloud:google-cloud-core-grpc:jar:1.53.0 -> io.grpc:grpc-protobuf:jar:1.16.1 -> io.grpc:grpc-core:jar:1.16.1, org.apache.nifi:nifi-gcp-processors:jar:1.9.2 -> com.google.cloud:google-cloud-pubsub:jar:1.53.0 -> com.google.cloud:google-cloud-core-grpc:jar:1.53.0 -> io.grpc:grpc-protobuf:jar:1.16.1 -> io.grpc:grpc-protobuf-lite:jar:1.16.1 -> io.grpc:grpc-core:jar:1.16.1, org.apache.nifi:nifi-gcp-processors:jar:1.9.2 -> com.google.cloud:google-cloud-pubsub:jar:1.53.0 -> io.grpc:grpc-netty-shaded:jar:1.16.1 -> io.grpc:grpc-core:jar:[1.16.1,1.16.1], org.apache.nifi:nifi-gcp-processors:jar:1.9.2 -> com.google.cloud:google-cloud-pubsub:jar:1.53.0 -> io.grpc:grpc-stub:jar:1.16.1 -> io.grpc:grpc-core:jar:1.16.1, org.apache.nifi:nifi-gcp-processors:jar:1.9.2 -> com.google.cloud:google-cloud-pubsub:jar:1.53.0 -> io.grpc:grpc-auth:jar:1.16.1 -> io.grpc:grpc-core:jar:[1.16.1,1.16.1], com.google.cloud:google-cloud:jar:0.8.0 -> com.google.cloud:google-cloud-datastore:jar:0.8.0-beta -> com.google.cloud.datastore:datastore-v1-protos:jar:1.3.0 -> com.google.api.grpc:grpc-google-common-protos:jar:0.1.0 -> io.grpc:grpc-all:jar:1.0.1 -> io.grpc:grpc-protobuf-nano:jar:1.0.1 -> io.grpc:grpc-core:jar:1.0.1, com.google.cloud:google-cloud:jar:0.8.0 -> com.google.cloud:google-cloud-datastore:jar:0.8.0-beta -> com.google.cloud.datastore:datastore-v1-protos:jar:1.3.0 -> com.google.api.grpc:grpc-google-common-protos:jar:0.1.0 -> io.grpc:grpc-all:jar:1.0.1 -> io.grpc:grpc-core:jar:[1.0.1,1.0.1], com.google.cloud:google-cloud:jar:0.8.0 -> com.google.cloud:google-cloud-datastore:jar:0.8.0-beta -> com.google.cloud.datastore:datastore-v1-protos:jar:1.3.0 -> com.google.api.grpc:grpc-google-common-protos:jar:0.1.0 -> io.grpc:grpc-all:jar:1.0.1 -> io.grpc:grpc-okhttp:jar:1.0.1 -> io.grpc:grpc-core:jar:[1.0.1,1.0.1], com.google.cloud:google-cloud:jar:0.8.0 -> com.google.cloud:google-cloud-errorreporting:jar:0.8.0 -> io.grpc:grpc-netty:jar:1.0.1 -> io.grpc:grpc-core:jar:[1.0.1,1.0.1]] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal on project nifi-bigquery-processors: Could not resolve dependencies for project org.apache.nifi:nifi-bigquery-processors:jar:0.2.0: Failed to collect dependencies for org.apache.nifi:nifi-bigquery-processors:jar:0.2.0
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:269)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:248)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:202)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.apache.maven.project.DependencyResolutionException: Could not resolve dependencies for project org.apache.nifi:nifi-bigquery-processors:jar:0.2.0: Failed to collect dependencies for org.apache.nifi:nifi-bigquery-processors:jar:0.2.0
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:178)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:248)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:202)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.eclipse.aether.collection.DependencyCollectionException: Failed to collect dependencies for org.apache.nifi:nifi-bigquery-processors:jar:0.2.0
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:288)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:279)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:169)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:248)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:202)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.eclipse.aether.collection.UnsolvableVersionConflictException: Could not resolve version conflict among [org.apache.nifi:nifi-gcp-processors:jar:1.9.2 -> com.google.cloud:google-cloud-pubsub:jar:1.53.0 -> com.google.cloud:google-cloud-core-grpc:jar:1.53.0 -> io.grpc:grpc-protobuf:jar:1.16.1 -> io.grpc:grpc-core:jar:1.16.1, org.apache.nifi:nifi-gcp-processors:jar:1.9.2 -> com.google.cloud:google-cloud-pubsub:jar:1.53.0 -> com.google.cloud:google-cloud-core-grpc:jar:1.53.0 -> io.grpc:grpc-protobuf:jar:1.16.1 -> io.grpc:grpc-protobuf-lite:jar:1.16.1 -> io.grpc:grpc-core:jar:1.16.1, org.apache.nifi:nifi-gcp-processors:jar:1.9.2 -> com.google.cloud:google-cloud-pubsub:jar:1.53.0 -> io.grpc:grpc-netty-shaded:jar:1.16.1 -> io.grpc:grpc-core:jar:[1.16.1,1.16.1], org.apache.nifi:nifi-gcp-processors:jar:1.9.2 -> com.google.cloud:google-cloud-pubsub:jar:1.53.0 -> io.grpc:grpc-stub:jar:1.16.1 -> io.grpc:grpc-core:jar:1.16.1, org.apache.nifi:nifi-gcp-processors:jar:1.9.2 -> com.google.cloud:google-cloud-pubsub:jar:1.53.0 -> io.grpc:grpc-auth:jar:1.16.1 -> io.grpc:grpc-core:jar:[1.16.1,1.16.1], com.google.cloud:google-cloud:jar:0.8.0 -> com.google.cloud:google-cloud-datastore:jar:0.8.0-beta -> com.google.cloud.datastore:datastore-v1-protos:jar:1.3.0 -> com.google.api.grpc:grpc-google-common-protos:jar:0.1.0 -> io.grpc:grpc-all:jar:1.0.1 -> io.grpc:grpc-protobuf-nano:jar:1.0.1 -> io.grpc:grpc-core:jar:1.0.1, com.google.cloud:google-cloud:jar:0.8.0 -> com.google.cloud:google-cloud-datastore:jar:0.8.0-beta -> com.google.cloud.datastore:datastore-v1-protos:jar:1.3.0 -> com.google.api.grpc:grpc-google-common-protos:jar:0.1.0 -> io.grpc:grpc-all:jar:1.0.1 -> io.grpc:grpc-core:jar:[1.0.1,1.0.1], com.google.cloud:google-cloud:jar:0.8.0 -> com.google.cloud:google-cloud-datastore:jar:0.8.0-beta -> com.google.cloud.datastore:datastore-v1-protos:jar:1.3.0 -> com.google.api.grpc:grpc-google-common-protos:jar:0.1.0 -> io.grpc:grpc-all:jar:1.0.1 -> io.grpc:grpc-okhttp:jar:1.0.1 -> io.grpc:grpc-core:jar:[1.0.1,1.0.1], com.google.cloud:google-cloud:jar:0.8.0 -> com.google.cloud:google-cloud-errorreporting:jar:0.8.0 -> io.grpc:grpc-netty:jar:1.0.1 -> io.grpc:grpc-core:jar:[1.0.1,1.0.1]]
+    at org.eclipse.aether.util.graph.transformer.NearestVersionSelector.newFailure (NearestVersionSelector.java:159)
+    at org.eclipse.aether.util.graph.transformer.NearestVersionSelector.backtrack (NearestVersionSelector.java:120)
+    at org.eclipse.aether.util.graph.transformer.NearestVersionSelector.selectVersion (NearestVersionSelector.java:93)
+    at org.eclipse.aether.util.graph.transformer.ConflictResolver.transformGraph (ConflictResolver.java:181)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:266)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:279)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:169)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:248)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:202)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :nifi-bigquery-processors
